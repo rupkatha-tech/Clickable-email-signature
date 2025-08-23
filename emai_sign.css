@@ -1,0 +1,30 @@
+/* Center the signature on the page */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* White square background for the signature */
+.bg {
+  background: #fff;
+  padding: 80px; /* Increased padding for larger size */
+  border-radius: 36px; /* Slightly larger corners */
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  display: inline-block;
+}
+
+/* Image circling */
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* Style the anchor tags */
+a {
+  color: #222;
+  font-weight: bold;
+  text-decoration: none;
+}
